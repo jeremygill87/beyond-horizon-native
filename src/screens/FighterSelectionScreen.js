@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import { View, Alert, Text } from "react-native";
 
-import { setFighter } from "../../actions";
+import { setFighter } from "../actions";
 
-import moves_data from "../../data/Moves_Data";
+import moves_data from "../data/Moves_Data";
 
 class FighterSelectionScreen extends Component {
   state = {
