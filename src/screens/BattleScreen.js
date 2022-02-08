@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { View, Text } from 'react-native';
+import { View, Text, StyleSheet, Alert } from 'react-native';
 
-import HealthBar from '../Healthbar';
+import HealthBar from '../components/Healthbar';
 
-import character_data from '../../data/Characters_Data';
-import moves_data from '../../data/Moves_Data';
+import character_data from '../data/Characters_Data';
+import moves_data from '../data/Moves_Data';
 
 class BattleScreen extends Component {
     constructor(props) {

@@ -3,15 +3,17 @@ import { createStackNavigator } from '@react-navigation/stack';
 
 import FighterSelectionScreen from './components/screens/FighterSelectionScreen';
 import BattleScreen from './components/screens/BattleScreen';
+import Test from './Test'
 
-import reducers from './reducers';
+import reducers from './src/reducers';
 
 const RootStack = createStackNavigator(
     {
         FighterSelect: FighterSelectionScreen,
-        Battle: BattleScreen
+        Battle: BattleScreen,
+        Test: Test
     },
-    { initialRouteName: 'FighterSelect' }
+    { initialRouteName: 'Test' }
 )
 class BootUp extends Component {
     render() {
